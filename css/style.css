@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --light:#ffffff;
+    --yellow:#ffce26;
+    --blue:#3c91e6;
+    --gray:#eeeeee;
+    --black:#000000;
+    --shadow:rgba(0,0,0,.3);
+   --green: rgb(58, 156, 135);
+}
+
+body{
+    background: var(--light);
+}
+
+#navbar{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 4rem;
+    box-shadow: 5px 5px 20px var(--shadow);
+    background: var(--light);
+    opacity: 90%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--green)!important;
+}
+
+.navbar .navbar-brand:hover{
+    color: var(--blue)!important;
+}
+
+#navbarSupportedContent .nav-link{
+    color: var(--black);
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent .nav-link:hover{
+    color: var(--gray);
+    border-bottom: 2px solid var(--blue);
+}
+
+
+.new_footer_area{
+    background:#ededef;
+    margin-top: 50px;
+}
+
+.new_footer_top{
+    padding:20px 0px 20px;
+    position:relative;
+    overflow-x: hidden;
+}
+
+.new_footer_area.footer_bottom{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer_bottom{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+
+.new_footer_top.company_widget p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 20px;
+}
+
+.new_footer_top.company_widget.f_subscribe_two.btn_get{
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.btn_get_two:hover{
+    background: transparent;
+    color: #5e2ced;
+}
+
+.btn_get:hover{
+    color: #fff;
+    background: #6754e2;
+    border-color: #6754e2;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+
+.a:hover,a:focus,btn:hover,btn:focus,button:hover,button:focus{
+        text-decoration: none;
+        outline: none;
+}
+
+.new_footer_top.f_widget.about-widget.f_list li a:hover{
+    color: #5e2ced;
+}
+
+.list-unstyled .f_list li a{
+    text-decoration: none;
+}
+
+.new_footer_top.f_widget.about-widget.f_list li{
+    margin-bottom: 11px;
+}
+
+.f_widget.about-widget.f_list li:last-child{
+    margin-bottom: 0px;
+}
+
+.f_widget.about-widget.f_list li{
+    margin-bottom: 15px;
+}
+
+.f_widget.about-widget.f_list{
+    margin-bottom: 0px;
+}
+
+.new_footer_top.f_social_icon a{
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+
+.f_social_icon a{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #7ccbdd;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear; 
+    transition: all 0.2s linear;
+}
+
+.ti-facebook:before{
+    content: "\e741";
+}
+
+.ti-twitter-alt:before{
+    content: "\e74b";
+}
+
+.ti-vimeo-alt:before{
+    content: "\e74a";
+}
+
+.ti-pinterest:before{
+    content: "\e731";
+}
+
+.btn_get_two{
+   
+    background-color:#5e2ced;
+    border-color: #5e2ced;
+    color: #fff;
+}
+
+.btn_get_two:hover{
+    background: transparent;
+    color: #5e2ced;
+}
+
+.new_footer_top.f_social_icon a:hover{
+    background: #5e2ced;
+    border-color:#5e2ced ;
+    color: white;
+}
+
+.new_footer_top.f_social_icon a+a{
+    margin-left: 4px;
+}
+
+.new_footer_top.f-title{
+    margin-bottom: 30px;
+    color: #263b5e;
+}
+
+.f_600{
+    font-weight: 600;
+}
+
+.f_size_18{
+    font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #4b505e;
+}
+
+.new_footer_top.f_widget.about-widget.f_list li a{
+    color: #6a7695;
+}
+
+.new_footer_top.footer_bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top.footer_bg.footer_bg_one{
+   width: 330px;
+   height:100px;
+   background-size: 100%;
+   position: absolute;
+   bottom: 0;
+   left: 30%;
+   -webkit-animation: myfirst 22s linear infinite;
+   animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top.footer_bg.footer_bg_two{
+    background: url("");
+
+}
+
+.copyright-area{
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.copyright-text p{
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
